@@ -71,6 +71,8 @@ const MORNING_ITEMS: MenuStructure = {
     { id: 'ds3', title: 'Fatia de torta', price: 20.00, description: 'Consulte a disponibilidade de sabores.', image: 'https://static.wixstatic.com/media/1f17f3_460effa3f6864413a1a4f577fa20217a~mv2.jpg' },
     { id: 'cp6', title: 'Salada de frutas 300ml', price: 10.00, image: 'https://static.wixstatic.com/media/1f17f3_5401ac7e92c44ec5a52d39d8b2a1ca2c~mv2.png', description: 'Mix de frutas frescas da estação.' },
     { id: 'cp7', title: 'Salada de frutas 400ml', price: 13.00, image: 'https://static.wixstatic.com/media/1f17f3_5401ac7e92c44ec5a52d39d8b2a1ca2c~mv2.png', description: 'Porção generosa de frutas selecionadas.' },
+    { id: 'ds_bolo', title: 'Bolo no pote 210ml', price: 12.00, image: 'https://static.wixstatic.com/media/1f17f3_16ae6efded6b4ee8bfa4832d39c8db10~mv2.png', description: 'Consulte os sabores disponíveis.' },
+    { id: 'ds_copo', title: 'Copo da felicidade 300ml', price: 15.00, image: 'https://static.wixstatic.com/media/1f17f3_587c081aa7c54ea7836b5ce47a0e951a~mv2.png', description: 'Sobremesa completa e irresistível.' },
   ]
 };
 
@@ -101,6 +103,14 @@ const NIGHT_ITEMS: MenuStructure = {
       featured: true 
     },
     { 
+      id: 'n_kebab', 
+      title: 'Kebab', 
+      price: 28.00, 
+      description: 'Pão especial com recheio suculento e molho da casa.', 
+      image: 'https://static.wixstatic.com/media/1f17f3_83e4c3f932474f488f1ed20b7c30e0cf~mv2.png',
+      featured: true 
+    },
+    { 
       id: 'n_f2', 
       title: 'Fettuccine de Camarão', 
       price: 37.00, 
@@ -123,7 +133,7 @@ const NIGHT_ITEMS: MenuStructure = {
     !['d10', 'd11', 'd12', 'd13', 'd14'].includes(item.id)
   ),
 
-  // Reproduz as Sobremesas da manhã
+  // Reproduz as Sobremesas da manhã (Agora incluindo Bolo no Pote e Copo da Felicidade)
   desserts: MORNING_ITEMS.desserts
 };
 
