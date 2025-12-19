@@ -103,6 +103,14 @@ const NIGHT_ITEMS: MenuStructure = {
       featured: true 
     },
     { 
+      id: 'n_baiao', 
+      title: 'Baião de dois', 
+      price: 30.00, 
+      description: 'Prato tradicional nordestino com tempero especial da casa.', 
+      image: 'https://static.wixstatic.com/media/1f17f3_212398b164434499b94054a88e344b5a~mv2.png',
+      featured: true 
+    },
+    { 
       id: 'n_kebab', 
       title: 'Kebab', 
       price: 28.00, 
