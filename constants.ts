@@ -44,7 +44,7 @@ const MORNING_ITEMS: MenuStructure = {
   ],
   specials: [
     { id: 's1', title: 'Fatia de quiche', price: 20.00, description: 'Massa brisée leve com recheios variados e cremosos.', image: 'https://static.wixstatic.com/media/1f17f3_63b33c35e6494add825751afa98a7a9c~mv2.png' },
-    { id: 's2', title: 'Quiche individual', price: 18.00, description: 'Versão individual perfeita para um almoço leve.', image: 'https://static.wixstatic.com/media/1f17f3_fe767a68529f4dc0920e215d98b539e3~mv2.png' },
+    { id: 's2', title: 'Quiche individual', price: 20.00, description: 'Versão individual perfeita para um almoço leve.', image: 'https://static.wixstatic.com/media/1f17f3_fe767a68529f4dc0920e215d98b539e3~mv2.png' },
     { id: 's3', title: 'Cuscuz tradicional', price: 20.00, description: 'Carne seca, queijo e banana', image: 'https://static.wixstatic.com/media/1f17f3_efd4f42cc2bd4577af112b9d0ee5942c~mv2.jpg' },
     { id: 's4', title: 'Cuscuz up', price: 23.00, description: 'Bacon, carne seca, queijo, banana e requeijão cremoso', featured: true, image: 'https://static.wixstatic.com/media/1f17f3_05ead5b7b59644bfad076568e57dca6b~mv2.png' },
   ],
@@ -72,6 +72,8 @@ const MORNING_ITEMS: MenuStructure = {
     { id: 'cp6', title: 'Salada de frutas 300ml', price: 10.00, image: 'https://static.wixstatic.com/media/1f17f3_5401ac7e92c44ec5a52d39d8b2a1ca2c~mv2.png', description: 'Mix de frutas frescas da estação.' },
     { id: 'cp7', title: 'Salada de frutas 400ml', price: 13.00, image: 'https://static.wixstatic.com/media/1f17f3_5401ac7e92c44ec5a52d39d8b2a1ca2c~mv2.png', description: 'Porção generosa de frutas selecionadas.' },
     { id: 'ds_bolo', title: 'Bolo no pote 210ml', price: 12.00, image: 'https://static.wixstatic.com/media/1f17f3_16ae6efded6b4ee8bfa4832d39c8db10~mv2.png', description: 'Consulte os sabores disponíveis.' },
+    { id: 'ds_bolo_250', title: 'Bolo no pote 250ml', price: 13.00, image: 'https://static.wixstatic.com/media/1f17f3_ec3ec5bd700843ba946a3abe3df322cb~mv2.jpeg', description: 'Consulte os sabores disponíveis.' },
+    { id: 'ds_bolo_300', title: 'Bolo no pote 300ml', price: 15.00, image: 'https://static.wixstatic.com/media/1f17f3_10c95ac5962346f58dcc08953443dc09~mv2.jpeg', description: 'Consulte os sabores disponíveis.' },
     { id: 'ds_copo', title: 'Copo da felicidade 300ml', price: 15.00, image: 'https://static.wixstatic.com/media/1f17f3_587c081aa7c54ea7836b5ce47a0e951a~mv2.png', description: 'Sobremesa completa e irresistível.' },
   ]
 };
@@ -107,7 +109,7 @@ const NIGHT_ITEMS: MenuStructure = {
       title: 'Baião de dois', 
       price: 30.00, 
       description: 'Prato tradicional nordestino com tempero especial da casa.', 
-      image: 'https://static.wixstatic.com/media/1f17f3_212398b164434499b94054a88e344b5a~mv2.png',
+      image: 'https://static.wixstatic.com/media/1f17f3_74ef1dede8724190af8d285c70c7d123~mv2.jpeg',
       featured: true 
     },
     { 
