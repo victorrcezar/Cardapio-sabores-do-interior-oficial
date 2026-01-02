@@ -21,7 +21,7 @@ interface MenuStructure {
 // Definição dos itens da MANHÃ (Conteúdo Atual)
 const MORNING_ITEMS: MenuStructure = {
   snacks: [
-    { id: 'm1', title: 'Esfirras abertas e fechadas La-Texas', price: 12.00, description: 'Sabor autêntico e massa leve.', image: 'https://static.wixstatic.com/media/1f17f3_0ca5c68e4ddb4b05af2c7d3fff2b9280~mv2.jpeg' },
+    { id: 'm1', title: 'Esfirras abertas e fechadas La-Texas', price: 13.00, description: 'Sabor autêntico e massa leve.', image: 'https://static.wixstatic.com/media/1f17f3_0ca5c68e4ddb4b05af2c7d3fff2b9280~mv2.jpeg' },
     { id: 'm2', title: 'Coxinha de frango da Geovanya', price: 10.00, description: 'Recheio generoso com catupiry original.', image: 'https://static.wixstatic.com/media/1f17f3_8b518d78dfc64907bb80f543830a52d2~mv2.png' },
     { id: 'm3', title: 'Misto egg', price: 12.00, description: 'Pão, presunto, queijo e ovo na chapa.', image: 'https://static.wixstatic.com/media/1f17f3_d68b3474b1f141ce815af8da8be6fab2~mv2.png' },
     { id: 'm4', title: 'Misto tradicional', price: 10.00, description: 'Clássico pão com presunto e queijo.', image: 'https://static.wixstatic.com/media/1f17f3_49ef0e3906234c628f58bd1b9e3e6139~mv2.png' },
